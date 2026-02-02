@@ -100,27 +100,27 @@
 
         layer_keymap {
             bindings = <
-                        &kp J       &kp F       &kp O       &kp L               &kp W       &kp G       &kp D       &kp B       
-&mt LCTRL Q &kp A       &kp I       &kp U       &kp E       &mt LALT COMMA      &mt LGUI DOT &kp K      &kp S       &kp T       &kp N       &mt LSHFT P 
-            &kp Z       &kp X       &kp C       &kp V                                       &kp H       &kp M       &kp Y       &kp R       
-                                                &lt 1 SPACE &kp TAB             &kp RET     &lt 2 BSPC  
+                        &kp W       &kp E       &kp R       &kp T               &kp Y       &kp U       &kp I       &kp O       
+&mt LCTRL Q &mt LSHFT A &kp S       &kp D       &kp F       &kp G               &kp B       &kp H       &kp J       &kp K       &mt RSHFT L &mt RGUI P  
+            &mt LALT Z  &kp X       &kp C       &kp V                                       &kp N       &kp M       &kp COMMA   &mt RALT DOT 
+                                                &kp SPACE   &lt 1 TAB           &lt 2 RET   &kp BSPC    
             >;
         };
 
         layer_math {
             bindings = <
-                        &kp F2      &kp F3      &kp ESC     &kp PSCRN           &kp PLUS    &kp N1      &kp N2      &kp N3      
-&kp F1      &kp F5      &kp F6      &kp LALT    &kp TAB     &kp CAPS            &kp MINUS   &kp N5      &kp N6      &kp N7      &kp N8      &kp N4      
-            &kp INS     &kp LCTRL   &kp DEL     &kp F12                                     &kp N9      &kp N0      &kp DOT     &kp EQUAL   
+                        &kp F1      &kp F2      &kp F3      &kp PSCRN           &kp PLUS    &kp N1      &kp N2      &kp N3      
+&kp ESC     &kp CAPS    &kp F4      &kp F5      &kp F6      &none               &kp MINUS   &kp N5      &kp N6      &kp N7      &kp N8      &kp N4      
+            &kp LCTRL   &kp INS     &kp DEL     &kp F12                                     &kp N9      &kp N0      &kp DOT     &kp EQUAL   
                                                 &none       &trans              &trans      &none       
             >;
         };
 
         layer_navi {
             bindings = <
-                        &kp SQT     &kp DQT     &kp CARET   &kp SEMI            &kp DLLR    &kp HOME    &kp UP      &kp END     
-&kp GRAVE   &kp FSLH    &kp BSLH    &kp LPAR    &kp RPAR    &kp COLON           &kp AMPS    &kp LEFT    &kp DOWN    &kp RIGHT   &none       &kp PRCNT   
-            &kp STAR    &kp TILDE   &kp UNDER   &kp PIPE                                    &kp HASH    &kp EXCL    &kp QMARK   &kp AT      
+                        &kp DQT     &kp HASH    &kp DLLR    &kp PRCNT           &kp LBKT    &kp TILDE   &kp UP      &kp CARET   
+&kp EXCL    &kp SQT     &kp STAR    &kp LPAR    &kp RPAR    &kp AMPS            &kp RBKT    &kp LEFT    &kp DOWN    &kp RIGHT   &kp QMARK   &kp PIPE    
+            &kp LBRC    &kp RBRC    &kp GRAVE   &kp UNDER                                   &kp SEMI    &kp COLON   &kp FSLH    &kp BSLH    
                                                 &none       &trans              &trans      &none       
             >;
         };
