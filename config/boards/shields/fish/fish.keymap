@@ -32,7 +32,7 @@
 &sl {
 };
 
-&caps_word {
+&caps_word {zzzzzzzzz
 };
 
 &key_repeat {
@@ -100,10 +100,10 @@
 
         layer_keymap {
             bindings = <
-                        &kp W       &kp E       &kp R       &kp T               &kp Y       &kp U       &kp I       &kp O       
-&mt LGUI Q  &kp A       &kp S       &kp D       &kp F       &kp G               &kp H       &mt LCTRL J &mt LSHFT K &mt LALT L  &kp BSPC    &kp P       
-            &kp Z       &kp X       &kp C       &kp V                                       &kp M       &kp COMMA   &kp DOT     &kp RET     
-                                                &lt 1 B     &lt 2 N             &kp TAB     &kp SPACE   
+                        &kp J       &kp F       &kp O       &kp L               &kp W       &kp G       &kp D       &kp B       
+&mt LCTRL Q &kp A       &kp I       &kp U       &kp E       &mt LALT COMMA      &mt LSHFT DOT &kp K     &kp S       &kp T       &kp N       &mt LGUI P  
+            &kp Z       &kp X       &kp C       &kp V                                       &kp H       &kp M       &kp Y       &kp R       
+                                                &lt 1 SPACE &lt 2 TAB           &kp RET     &kp BSPC    
             >;
         };
 
